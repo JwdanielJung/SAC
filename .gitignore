@@ -1,0 +1,4 @@
+.env
+results/
+main_archive.py
+test.ipynb
