@@ -1,10 +1,13 @@
-### SAC (Search-Augmented unsafe prompts Classification) frameworks for LLMs
+# SAC (Search-Augmented unsafe prompts Classification) Frameworks for LLMs
 
-(1) Vector storing of unsafe prompts
-(2) Threshold optimization 
-(3) Similarity Search based threshold filtering
-    - confi_unsafe: confident unsafe in filtering phase
-    - confi_safe: confident safe in filtering phase
-    - unconfident: can't determine
-    - losses: incorrect filtering
-(4) Classification for remain ones by using previous classification
+1. **Vector Storing of Unsafe Prompts**
+
+2. **Threshold Optimization**
+
+3. **Similarity Search Based Threshold Filtering**
+   - `confi_unsafe`: Confidently unsafe in filtering phase
+   - `confi_safe`: Confidently safe in filtering phase
+   - `unconfident`: Can't determine
+   - `losses`: Incorrect filtering
+
+4. **Classification for Remaining Ones Using Previous Classification**
