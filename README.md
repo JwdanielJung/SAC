@@ -1,5 +1,7 @@
 # SAC (Search-Augmented unsafe prompts Classification) Frameworks for LLMs
 
+![Framework Overview](assets/SAC framework.png)
+
 1. **Vector Storing of Unsafe Prompts**
 
 2. **Threshold Optimization**
