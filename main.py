@@ -82,6 +82,4 @@ if __name__ == "__main__":
     preds = classifier.classification(texts=test.iloc[unconfident]["text"].tolist())
     labels = test.iloc[unconfident]["label"].tolist()
 
-    print(preds, labels)
-
     print(evaluate(preds, labels))

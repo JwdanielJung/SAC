@@ -12,4 +12,41 @@
    - `unconfident`: Can't determine
    - `losses`: Incorrect filtering
 
-4. **Classification for Remaining Ones Using Previous Classification**
+4. **Classification for Remaining prompts Using Previous Classifiers**
+   - `Moderation API`
+   - `Perspective API`
+   - `Llama-Guard 7B`
+   - `GradSafe`
+   - `Zero shot prompting GPT-4`
+
+## Implementation
+
+Install the required dependencies using the following command:
+
+```bash
+conda create -n sac
+conda activate sac
+pip install -r requirements.txt
+```
+
+Create a `.env` file and add the following line:
+
+```bash
+OPENAI_API_KEY = "YOUR_API_KEY"
+PERSPECTIVE_API_KEY = "YOUR_API_KEY"
+HUGGINGFACE_TOKEN="YOUR_API_KEY"
+```
+
+Example implementation codes command:
+
+```bash
+python main.py
+```
+
+```bash
+python main.py --embed_model openai --model llama_guard --is_prepared False
+```
+
+```bash
+python main.py --embed_model openai --model llama_guard --is_prepared True
+```

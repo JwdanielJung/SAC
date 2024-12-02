@@ -37,7 +37,7 @@ def parse_arguments():
         "--model",
         type=str,
         choices=["llama_guard", "moderation", "perspective", "gradsafe", "gpt4"],
-        default="gpt4",
+        default="llama_guard",
         help="Model to use (choices: 'llama_guard', 'moderation', 'perspective', 'gradsafe', 'gpt4', default: 'gpt4')",
     )
 
@@ -45,8 +45,8 @@ def parse_arguments():
     parser.add_argument(
         "--is_prepared",
         type=lambda x: x.lower() == "true",
-        default=True,
-        help="Flag indicating if the system is prepared (default: True)",
+        default=False,
+        help="Flag indicating if the system is prepared (default: False)",
     )
 
     # Lambda loss
