@@ -1,4 +1,6 @@
 .env
 results/
-main_archive.py
 test.ipynb
+**/__pycache__/
+*.index
+*.ipynb

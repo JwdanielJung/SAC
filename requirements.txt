@@ -1,0 +1,17 @@
+angle-emb==0.5.4
+Brotli==1.1.0
+cffi==1.17.1
+faiss-cpu==1.9.0.post1
+gmpy2==2.1.5
+google-api-python-client==2.154.0
+h2==4.1.0
+openai==1.55.3
+pip==24.3.1
+PySocks==1.7.1
+python-dotenv==1.0.1
+sentence-transformers==3.3.1
+torchaudio==2.5.1
+torchvision==0.20.1
+triton==3.1.0
+wheel==0.45.1
+zstandard==0.23.0
